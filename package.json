@@ -1,0 +1,62 @@
+{
+  "name": "NewsWatcher",
+  "version": "0.0.1",
+  "main": "server.js",
+  "author": {
+    "name": "Santiago Orellana",
+    "email": "santiorellana@ymail.com"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "react-test": "react-scripts test",
+    "react-eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "async": "^2.6.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.4.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.13.4",
+    "express-rate-limit": "^2.11.0",
+    "helmet": "3.12.0",
+    "helmet-csp": "^2.7.0",
+    "joi": "^13.3.0",
+    "jwt-simple": "^0.5.1",
+    "mongodb": "^3.0.8",
+    "morgan": "^1.9.0",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "response-time": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.8.1",
+    "mocha": "^4.1.0",
+    "selenium-webdriver": "^3.6.0",
+    "supertest": "^3.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
